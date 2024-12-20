@@ -25,3 +25,27 @@
  * GET /api/Contacts/Search - Searched results
  * GET /api/Contacts/Sort - Sorted results
  * GET /api/Contacts/Paginate - Paginated results
+**Application Structure**
+
+ContactsManagementAPI/
+│
+├── Controllers/
+│   └── ContactsController.cs    # Handles API endpoints
+│
+├── Models/
+│   └── Contact.cs               # Contact data model with validation attributes
+│
+├── Repositories/
+│   └── ContactRepository.cs     # Handles CRUD operations for contacts
+│
+├── Middleware/
+│   └── ErrorHandlingMiddleware.cs # Global error handling
+│
+├── contacts.json                # JSON file for data storage
+│
+├── Program.cs                   # Application entry point
+│
+└── README.md                    # Project documentation
+
+
+
