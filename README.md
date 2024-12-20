@@ -22,7 +22,6 @@
  * POST /api/Contacts/AddContact - Add a new contact
  * PUT /api/Contacts/UpdateContact - Update an existing contact
  * DELETE /api/Contacts/DeleteContact/{id} - Delete a contact
- * GET /api/Contacts/Search - Paginated results
- * GET /api/Contacts/Sort - Paginated results
+ * GET /api/Contacts/Search - Searched results
+ * GET /api/Contacts/Sort - Sorted results
  * GET /api/Contacts/Paginate - Paginated results
- * GET /api/Contacts/search - Search contacts
