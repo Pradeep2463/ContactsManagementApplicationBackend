@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AYnjcClrOAMpvh1zJjHo1nvFUaeJfbt6B6gfSal9gwQ=",
+  "Source": "ContactsManagementApplication",
+  "BasePath": "_content/ContactsManagementApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

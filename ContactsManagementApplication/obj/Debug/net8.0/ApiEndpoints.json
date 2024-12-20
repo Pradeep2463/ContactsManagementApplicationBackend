@@ -1,0 +1,134 @@
+[
+  {
+    "ContainingType": "ContactsManagementApplication.Controllers.ContactsController",
+    "Method": "AddContact",
+    "RelativePath": "api/Contacts/AddContact",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contact",
+        "Type": "ContactsManagementApplication.Models.Contact",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsManagementApplication.Controllers.ContactsController",
+    "Method": "DeleteContact",
+    "RelativePath": "api/Contacts/DeleteContact/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsManagementApplication.Controllers.ContactsController",
+    "Method": "GetAllContacts",
+    "RelativePath": "api/Contacts/GetAllContacts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsManagementApplication.Controllers.ContactsController",
+    "Method": "GetContactById",
+    "RelativePath": "api/Contacts/GetContactById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsManagementApplication.Controllers.ContactsController",
+    "Method": "GetPaginatedContacts",
+    "RelativePath": "api/Contacts/Paginate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsManagementApplication.Controllers.ContactsController",
+    "Method": "SearchContacts",
+    "RelativePath": "api/Contacts/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsManagementApplication.Controllers.ContactsController",
+    "Method": "GetSortedContacts",
+    "RelativePath": "api/Contacts/Sort",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ascending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactsManagementApplication.Controllers.ContactsController",
+    "Method": "UpdateContact",
+    "RelativePath": "api/Contacts/UpdateContact",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contact",
+        "Type": "ContactsManagementApplication.Models.Contact",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
