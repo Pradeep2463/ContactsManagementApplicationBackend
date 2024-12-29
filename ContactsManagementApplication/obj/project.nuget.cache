@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TpF/Yy5n9IGGMg+CnwlrxNV0ZY/k+Dx1ELX2BoVg6iZsFlbZJ1zBK+6UJQIzqz7PYSBnf7YNUaUH+28Vzh585Q==",
+  "dgSpecHash": "ZmPl+TMfcWmOKumPTj9rp0ovJBuGgoHbEZ8Csiaq52Zk1czWtVKAw49hr1pZ6Emq5nnalbKqz2CSMp5uBL1nKQ==",
   "success": true,
-  "projectFilePath": "E:\\ContactsManagementAppliation\\ContactsManagementApplicationBackend\\ContactsManagementApplication\\ContactsManagementApplication.csproj",
+  "projectFilePath": "E:\\ContactsManagementApplicationBackend\\ContactsManagementApplicationBackend\\ContactsManagementApplication\\ContactsManagementApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

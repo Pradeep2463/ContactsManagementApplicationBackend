@@ -2337,11 +2337,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ContactsManagementAppliation\\ContactsManagementApplicationBackend\\ContactsManagementApplication\\ContactsManagementApplication.csproj",
+      "projectUniqueName": "E:\\ContactsManagementApplicationBackend\\ContactsManagementApplicationBackend\\ContactsManagementApplication\\ContactsManagementApplication.csproj",
       "projectName": "ContactsManagementApplication",
-      "projectPath": "E:\\ContactsManagementAppliation\\ContactsManagementApplicationBackend\\ContactsManagementApplication\\ContactsManagementApplication.csproj",
+      "projectPath": "E:\\ContactsManagementApplicationBackend\\ContactsManagementApplicationBackend\\ContactsManagementApplication\\ContactsManagementApplication.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "E:\\ContactsManagementAppliation\\ContactsManagementApplicationBackend\\ContactsManagementApplication\\obj\\",
+      "outputPath": "E:\\ContactsManagementApplicationBackend\\ContactsManagementApplicationBackend\\ContactsManagementApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
