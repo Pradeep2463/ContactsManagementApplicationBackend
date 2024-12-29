@@ -1,0 +1,259 @@
+2024-12-21 10:02:37.634 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-21 10:02:38.666 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/index.html - null null
+2024-12-21 10:02:38.863 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-21 10:02:38.864 +05:30 [INF] Hosting environment: Development
+2024-12-21 10:02:38.865 +05:30 [INF] Content root path: E:\ContactsManagementApplicationBackend\ContactsManagementApplicationBackend\ContactsManagementApplication
+2024-12-21 10:02:39.359 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/index.html - 200 null text/html;charset=utf-8 712.7957ms
+2024-12-21 10:02:39.743 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-21 10:02:39.743 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/_vs/browserLink - null null
+2024-12-21 10:02:39.758 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 7.1714ms
+2024-12-21 10:02:39.871 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/_vs/browserLink - 200 null text/javascript; charset=UTF-8 128.8924ms
+2024-12-21 10:02:40.349 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/favicon-16x16.png - null null
+2024-12-21 10:02:40.379 +05:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-12-21 10:02:40.380 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/favicon-16x16.png - 499 665 image/png 30.3851ms
+2024-12-21 10:02:40.498 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - null null
+2024-12-21 10:02:40.719 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 221.6943ms
+2024-12-21 10:02:54.530 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=1&pageSize=5 - null null
+2024-12-21 10:02:54.541 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:02:54.607 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:02:54.657 +05:30 [INF] Route matched with {action = "GetPaginatedContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPaginatedContacts(Int32, Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:02:54.720 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:02:54.738 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication) in 76.28ms
+2024-12-21 10:02:54.738 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:02:54.738 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=1&pageSize=5 - 200 null application/json; charset=utf-8 208.6494ms
+2024-12-21 10:02:58.282 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=2&pageSize=5 - null null
+2024-12-21 10:02:58.283 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:02:58.287 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:02:58.287 +05:30 [INF] Route matched with {action = "GetPaginatedContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPaginatedContacts(Int32, Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:02:58.288 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:02:58.289 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication) in 1.8519ms
+2024-12-21 10:02:58.289 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:02:58.290 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=2&pageSize=5 - 200 null application/json; charset=utf-8 8.0535ms
+2024-12-21 10:02:59.876 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=3&pageSize=5 - null null
+2024-12-21 10:02:59.878 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:02:59.879 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:02:59.879 +05:30 [INF] Route matched with {action = "GetPaginatedContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPaginatedContacts(Int32, Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:02:59.880 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:02:59.881 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication) in 1.4188ms
+2024-12-21 10:02:59.881 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:02:59.881 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=3&pageSize=5 - 200 null application/json; charset=utf-8 5.5381ms
+2024-12-21 10:03:02.683 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=1&pageSize=5 - null null
+2024-12-21 10:03:02.684 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:03:02.684 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:03:02.684 +05:30 [INF] Route matched with {action = "GetPaginatedContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPaginatedContacts(Int32, Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:03:02.685 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:03:02.686 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication) in 1.738ms
+2024-12-21 10:03:02.687 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:03:02.687 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=1&pageSize=5 - 200 null application/json; charset=utf-8 3.8937ms
+2024-12-21 10:03:45.169 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=2&pageSize=5 - null null
+2024-12-21 10:03:45.170 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:03:45.170 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:03:45.170 +05:30 [INF] Route matched with {action = "GetPaginatedContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPaginatedContacts(Int32, Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:03:45.171 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:03:45.172 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication) in 1.2574ms
+2024-12-21 10:03:45.172 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:03:45.172 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=2&pageSize=5 - 200 null application/json; charset=utf-8 2.8047ms
+2024-12-21 10:03:49.792 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=j - null null
+2024-12-21 10:03:49.793 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:03:49.793 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:49.797 +05:30 [INF] Route matched with {action = "SearchContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchContacts(System.String) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:03:49.802 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-21 10:03:49.803 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication) in 5.9316ms
+2024-12-21 10:03:49.803 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:49.803 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=j - 200 null application/json; charset=utf-8 10.6696ms
+2024-12-21 10:03:50.397 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=jj - null null
+2024-12-21 10:03:50.397 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:03:50.398 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:50.398 +05:30 [INF] Route matched with {action = "SearchContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchContacts(System.String) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:03:50.399 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-21 10:03:50.399 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication) in 1.432ms
+2024-12-21 10:03:50.400 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:50.400 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=jj - 200 null application/json; charset=utf-8 3.2023ms
+2024-12-21 10:03:53.479 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=jjj - null null
+2024-12-21 10:03:53.479 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:03:53.480 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:53.480 +05:30 [INF] Route matched with {action = "SearchContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchContacts(System.String) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:03:53.480 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-21 10:03:53.481 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication) in 1.0711ms
+2024-12-21 10:03:53.481 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:53.481 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=jjj - 200 null application/json; charset=utf-8 2.4406ms
+2024-12-21 10:03:54.529 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=jj - null null
+2024-12-21 10:03:54.529 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:03:54.529 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:54.529 +05:30 [INF] Route matched with {action = "SearchContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchContacts(System.String) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:03:54.530 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-21 10:03:54.530 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication) in 0.7568ms
+2024-12-21 10:03:54.530 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:54.531 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=jj - 200 null application/json; charset=utf-8 1.5271ms
+2024-12-21 10:03:55.724 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=j - null null
+2024-12-21 10:03:55.725 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:03:55.725 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:55.725 +05:30 [INF] Route matched with {action = "SearchContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchContacts(System.String) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:03:55.726 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-21 10:03:55.727 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication) in 1.3973ms
+2024-12-21 10:03:55.727 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:55.727 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=j - 200 null application/json; charset=utf-8 2.7579ms
+2024-12-21 10:03:55.913 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/Search?query= - null null
+2024-12-21 10:03:55.913 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:03:55.913 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:55.913 +05:30 [INF] Route matched with {action = "SearchContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchContacts(System.String) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:03:55.915 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-21 10:03:55.967 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication) in 54.2387ms
+2024-12-21 10:03:55.968 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:55.968 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/Search?query= - 400 null application/problem+json; charset=utf-8 55.3688ms
+2024-12-21 10:03:56.769 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=a - null null
+2024-12-21 10:03:56.770 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:03:56.770 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:56.770 +05:30 [INF] Route matched with {action = "SearchContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchContacts(System.String) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:03:56.770 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-21 10:03:56.771 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication) in 0.782ms
+2024-12-21 10:03:56.771 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:56.771 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=a - 200 null application/json; charset=utf-8 2.0076ms
+2024-12-21 10:03:56.940 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=aa - null null
+2024-12-21 10:03:56.941 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:03:56.942 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:56.942 +05:30 [INF] Route matched with {action = "SearchContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchContacts(System.String) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:03:56.942 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-21 10:03:56.943 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication) in 0.8915ms
+2024-12-21 10:03:56.943 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:56.943 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=aa - 200 null application/json; charset=utf-8 3.1314ms
+2024-12-21 10:03:57.839 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=a - null null
+2024-12-21 10:03:57.839 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:03:57.839 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:57.839 +05:30 [INF] Route matched with {action = "SearchContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchContacts(System.String) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:03:57.840 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-21 10:03:57.840 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication) in 0.7221ms
+2024-12-21 10:03:57.840 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:57.840 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/Search?query=a - 200 null application/json; charset=utf-8 1.459ms
+2024-12-21 10:03:58.944 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/Search?query= - null null
+2024-12-21 10:03:58.944 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:03:58.945 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:58.945 +05:30 [INF] Route matched with {action = "SearchContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchContacts(System.String) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:03:58.946 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-12-21 10:03:58.946 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication) in 1.492ms
+2024-12-21 10:03:58.946 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.SearchContacts (ContactsManagementApplication)'
+2024-12-21 10:03:58.947 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/Search?query= - 400 null application/problem+json; charset=utf-8 2.9091ms
+2024-12-21 10:04:07.757 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=1&pageSize=5 - null null
+2024-12-21 10:04:07.757 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:04:07.758 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:04:07.758 +05:30 [INF] Route matched with {action = "GetPaginatedContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPaginatedContacts(Int32, Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:04:07.758 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:04:07.760 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication) in 1.7597ms
+2024-12-21 10:04:07.760 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:04:07.760 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=1&pageSize=5 - 200 null application/json; charset=utf-8 3.4186ms
+2024-12-21 10:05:42.535 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:44356/api/Contacts/DeleteContact/11 - null null
+2024-12-21 10:05:42.541 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:05:42.563 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:44356/api/Contacts/DeleteContact/11 - 204 null null 27.7893ms
+2024-12-21 10:05:42.565 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:44356/api/Contacts/DeleteContact/11 - null null
+2024-12-21 10:05:42.565 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:05:42.565 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.DeleteContact (ContactsManagementApplication)'
+2024-12-21 10:05:42.567 +05:30 [INF] Route matched with {action = "DeleteContact", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteContact(Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:05:42.587 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-12-21 10:05:42.587 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.DeleteContact (ContactsManagementApplication) in 20.1734ms
+2024-12-21 10:05:42.587 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.DeleteContact (ContactsManagementApplication)'
+2024-12-21 10:05:42.588 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:44356/api/Contacts/DeleteContact/11 - 204 null null 22.7415ms
+2024-12-21 10:05:42.613 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=1&pageSize=5 - null null
+2024-12-21 10:05:42.613 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:05:42.613 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:05:42.613 +05:30 [INF] Route matched with {action = "GetPaginatedContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPaginatedContacts(Int32, Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:05:42.613 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:05:42.614 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication) in 0.8555ms
+2024-12-21 10:05:42.614 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:05:42.614 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=1&pageSize=5 - 200 null application/json; charset=utf-8 1.9363ms
+2024-12-21 10:05:47.114 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/GetContactById/10 - null null
+2024-12-21 10:05:47.115 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:05:47.115 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetContactById (ContactsManagementApplication)'
+2024-12-21 10:05:47.118 +05:30 [INF] Route matched with {action = "GetContactById", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetContactById(Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:05:47.120 +05:30 [INF] Executing OkObjectResult, writing value of type 'ContactsManagementApplication.Models.Contact'.
+2024-12-21 10:05:47.121 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetContactById (ContactsManagementApplication) in 2.7458ms
+2024-12-21 10:05:47.121 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetContactById (ContactsManagementApplication)'
+2024-12-21 10:05:47.122 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/GetContactById/10 - 200 null application/json; charset=utf-8 7.368ms
+2024-12-21 10:05:52.321 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:44356/api/Contacts/UpdateContact - null null
+2024-12-21 10:05:52.321 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:05:52.322 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:44356/api/Contacts/UpdateContact - 204 null null 1.6255ms
+2024-12-21 10:05:52.324 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:44356/api/Contacts/UpdateContact - application/json 102
+2024-12-21 10:05:52.324 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:05:52.324 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.UpdateContact (ContactsManagementApplication)'
+2024-12-21 10:05:52.329 +05:30 [INF] Route matched with {action = "UpdateContact", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateContact(ContactsManagementApplication.Models.Contact) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:05:52.366 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-12-21 10:05:52.366 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.UpdateContact (ContactsManagementApplication) in 36.8889ms
+2024-12-21 10:05:52.366 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.UpdateContact (ContactsManagementApplication)'
+2024-12-21 10:05:52.367 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:44356/api/Contacts/UpdateContact - 204 null null 42.3039ms
+2024-12-21 10:05:52.399 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=1&pageSize=5 - null null
+2024-12-21 10:05:52.399 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:05:52.399 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:05:52.399 +05:30 [INF] Route matched with {action = "GetPaginatedContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPaginatedContacts(Int32, Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:05:52.400 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:05:52.400 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication) in 1.104ms
+2024-12-21 10:05:52.400 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:05:52.401 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=1&pageSize=5 - 200 null application/json; charset=utf-8 2.0983ms
+2024-12-21 10:06:02.546 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:44356/api/Contacts/AddContact - null null
+2024-12-21 10:06:02.546 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:06:02.546 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:44356/api/Contacts/AddContact - 204 null null 0.7139ms
+2024-12-21 10:06:02.549 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44356/api/Contacts/AddContact - application/json 91
+2024-12-21 10:06:02.549 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:06:02.549 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.AddContact (ContactsManagementApplication)'
+2024-12-21 10:06:02.552 +05:30 [INF] Route matched with {action = "AddContact", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddContact(ContactsManagementApplication.Models.Contact) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:06:07.205 +05:30 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:06:07.208 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.AddContact (ContactsManagementApplication) in 4656.6513ms
+2024-12-21 10:06:07.208 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.AddContact (ContactsManagementApplication)'
+2024-12-21 10:06:07.209 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44356/api/Contacts/AddContact - 500 null application/json; charset=utf-8 4659.4349ms
+2024-12-21 10:06:15.465 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:44356/api/Contacts/AddContact - null null
+2024-12-21 10:06:15.465 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:06:15.465 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:44356/api/Contacts/AddContact - 204 null null 0.8041ms
+2024-12-21 10:06:15.468 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44356/api/Contacts/AddContact - application/json 92
+2024-12-21 10:06:15.468 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:06:15.468 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.AddContact (ContactsManagementApplication)'
+2024-12-21 10:06:15.468 +05:30 [INF] Route matched with {action = "AddContact", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddContact(ContactsManagementApplication.Models.Contact) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:06:15.473 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'ContactsManagementApplication.Models.Contact'.
+2024-12-21 10:06:15.520 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.AddContact (ContactsManagementApplication) in 52.3088ms
+2024-12-21 10:06:15.521 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.AddContact (ContactsManagementApplication)'
+2024-12-21 10:06:15.521 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44356/api/Contacts/AddContact - 201 null application/json; charset=utf-8 53.4953ms
+2024-12-21 10:06:15.550 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=1&pageSize=5 - null null
+2024-12-21 10:06:15.550 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:06:15.550 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:06:15.551 +05:30 [INF] Route matched with {action = "GetPaginatedContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPaginatedContacts(Int32, Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:06:15.551 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:06:15.553 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication) in 1.9592ms
+2024-12-21 10:06:15.553 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:06:15.553 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=1&pageSize=5 - 200 null application/json; charset=utf-8 3.0048ms
+2024-12-21 10:06:52.752 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=2&pageSize=5 - null null
+2024-12-21 10:06:52.754 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:06:52.754 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:06:52.754 +05:30 [INF] Route matched with {action = "GetPaginatedContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPaginatedContacts(Int32, Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:06:52.755 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:06:52.755 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication) in 1.0312ms
+2024-12-21 10:06:52.755 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:06:52.755 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=2&pageSize=5 - 200 null application/json; charset=utf-8 5.2739ms
+2024-12-21 10:06:53.134 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=3&pageSize=5 - null null
+2024-12-21 10:06:53.134 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:06:53.134 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:06:53.134 +05:30 [INF] Route matched with {action = "GetPaginatedContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPaginatedContacts(Int32, Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:06:53.135 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:06:53.136 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication) in 1.0995ms
+2024-12-21 10:06:53.136 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:06:53.136 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=3&pageSize=5 - 200 null application/json; charset=utf-8 2.2094ms
+2024-12-21 10:06:54.137 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=3&pageSize=5 - null null
+2024-12-21 10:06:54.137 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:06:54.137 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:06:54.138 +05:30 [INF] Route matched with {action = "GetPaginatedContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPaginatedContacts(Int32, Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:06:54.138 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:06:54.139 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication) in 1.4997ms
+2024-12-21 10:06:54.139 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:06:54.139 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=3&pageSize=5 - 200 null application/json; charset=utf-8 2.6664ms
+2024-12-21 10:06:54.322 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=3&pageSize=5 - null null
+2024-12-21 10:06:54.323 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:06:54.323 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:06:54.323 +05:30 [INF] Route matched with {action = "GetPaginatedContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPaginatedContacts(Int32, Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:06:54.324 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:06:54.325 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication) in 1.5722ms
+2024-12-21 10:06:54.325 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:06:54.325 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=3&pageSize=5 - 200 null application/json; charset=utf-8 2.8971ms
+2024-12-21 10:06:56.320 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=1&pageSize=5 - null null
+2024-12-21 10:06:56.321 +05:30 [INF] CORS policy execution successful.
+2024-12-21 10:06:56.321 +05:30 [INF] Executing endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:06:56.321 +05:30 [INF] Route matched with {action = "GetPaginatedContacts", controller = "Contacts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPaginatedContacts(Int32, Int32) on controller ContactsManagementApplication.Controllers.ContactsController (ContactsManagementApplication).
+2024-12-21 10:06:56.321 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[ContactsManagementApplication.Models.Contact, ContactsManagementApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-21 10:06:56.322 +05:30 [INF] Executed action ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication) in 0.8124ms
+2024-12-21 10:06:56.322 +05:30 [INF] Executed endpoint 'ContactsManagementApplication.Controllers.ContactsController.GetPaginatedContacts (ContactsManagementApplication)'
+2024-12-21 10:06:56.322 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44356/api/Contacts/paginate?page=1&pageSize=5 - 200 null application/json; charset=utf-8 1.5307ms
